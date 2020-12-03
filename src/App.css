@@ -1,38 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Merriweather&display=swap");
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: "Poppins";
+}
+
+.Header {
+  justify-content: center;
   color: white;
+  font-size: 50px;
+  padding-top: 25vh;
+  height: 100vh;
+  background-size: cover;
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutMe {
+  justify-content: center;
+  color: black;
+  font-size: 25px;
+  padding-top: 25vh;
+  margin-left: 0vh;
+  margin-right: 0vh;
+  height: 50vh;
+  background-size: cover;
+  background-color: white;
+}
+.aboutMeDiscription {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.workExperience {
+  margin-top: 10vh;
+  border: black;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  background: white;
+  justify-content: center;
+}
+.work {
+  border: black;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: space-around;
+}
+.workImage {
+  max-width: 50vh;
+
+  object-fit: scale-down;
+}
+
+.workDescription {
+  margin-left: 50px;
+  width: 70vh;
+  height: 50vh;
+  text-align: left;
+  justify-content: center;
+}
+
+.logoImage {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.logo {
+  height: 10vh;
+  width: 10vh;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 40%;
+}
+
+.WeatherApp {
+  margin: auto;
+  color: rgb(0, 0, 0);
+  justify-content: space-around;
+  justify-content: center;
+}
+.weatherCards {
+  margin-top: 100px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
 }
