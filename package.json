@@ -17,7 +17,10 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
+  "homepage": "https://rafidakhter.github.io/myWebsite",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d buld",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
