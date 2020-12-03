@@ -17,10 +17,10 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "https://rafidakhter.github.io/myWebsite",
+  "homepage": "https://rafidakhter.github.io/myWebsite/.",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d buld",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
